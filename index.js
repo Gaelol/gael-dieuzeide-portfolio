@@ -13,7 +13,7 @@ express()
 .get('/projet',function(req,res){
     res.sendFile(path.join(__dirname+'/projet.html'));
 })
-.get('/compétences',function(req,res){
+.get('/competences',function(req,res){
     res.sendFile(path.join(__dirname+'/competences.html'));
 })
 .get('/cv',function(req,res){
