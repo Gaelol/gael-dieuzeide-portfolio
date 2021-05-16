@@ -37,7 +37,7 @@
 
         /* Style the active/current link*/
         .header a.active {
-            background-color: dodgerblue;
+            background-color: darkorange;
             color: white;
         }
 
@@ -57,6 +57,21 @@
                 float: none;
             }
         }
+        table{
+            width: 90%;
+            margin: 5%;
+        }
+        table,
+        td {
+            border: 1px solid #333;
+            padding: 1%;
+        }
+
+        thead,
+        tfoot {
+            background-color: #333;
+            color: #fff;
+        }
     </style>
 </head>
 <body>
@@ -74,5 +89,63 @@
         <a href="projet">Projet</a>
     </div>
 </div>
+<table>
+    <thead>
+    <tr>
+        <th colspan="7">Tableau récapitulatif des activités</th>
+    </tr>
+    <tr>
+        <td>Thème</td>
+        <td>Type d'activité</td>
+        <td>Lieu</td>
+        <td>Date</td>
+        <td>Heures valorisées</td>
+        <td>Heures réelles</td>
+        <td>Lien vers la preuve</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+
+    </tr>
+
+    <tr>
+        <td>Formation scoute</td>
+        <td>Formation</td>
+        <td>Chateau</td>
+        <td>Y a longtemps</td>
+        <td>96 heures</td>
+        <td>10 heures</td>
+        <td><a href="http://google.com/">Lien</a></td>
+    </tr>
+    <tr>
+        <td>Formation scoute</td>
+        <td>Formation</td>
+        <td>Chateau</td>
+        <td>Y a longtemps</td>
+        <td>96 heures</td>
+        <td>10 heures</td>
+        <td><a href="http://google.com/">Lien</a></td>
+    </tr>
+    <tr>
+        <td>Formation scoute</td>
+        <td>Formation</td>
+        <td>Chateau</td>
+        <td>Y a longtemps</td>
+        <td>96 heures</td>
+        <td>10 heures</td>
+        <td><a href="http://google.com/">Lien</a></td>
+    </tr>
+    <tr>
+        <td>Formation scoute</td>
+        <td>Formation</td>
+        <td>Chateau</td>
+        <td>Y a longtemps</td>
+        <td>96 heures</td>
+        <td><b>10 heures</b></td>
+        <td><a href="http://google.com/">Lien</a></td>
+    </tr>
+    </tbody>
+</table>
 </body>
 </html>
