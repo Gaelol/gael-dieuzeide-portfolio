@@ -4,8 +4,11 @@
     <title>Gaël Dieuzeide</title>
     <meta charset="utf-8" />
     <style>
-        /* Style the header with a grey background and some padding */
+        *{
+            border-radius: 5px;
+        }
         .header {
+
             overflow: hidden;
             background-color: #f1f1f1;
             padding: 20px 10px;
@@ -60,6 +63,47 @@
         body{
             background-color:#364b71;
         }
+        hgroup {
+            text-align: right;
+            font-family: Verdana, sans-serif;
+            padding-right: 16px;
+            border-right: 10px solid #00c8d7;
+        }
+
+        h1 {
+            font-size: 1.93rem;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.16rem;
+            margin-top: 0;
+        }
+
+        p {
+            text-align: justify;
+            font-family: Georgia, serif;
+            font-size: .95rem;
+        }
+
+        p::first-letter {
+            font-size: 3.2rem;
+            line-height: .7;
+            float: left;
+            padding-right: 8px;
+            padding-top: 4px;
+        }
+        #midleft{
+            width: 80%;
+            text-align: center;
+            display: block;
+            background-color:whitesmoke;
+            margin:auto;
+            margin-top:3%;
+            padding:3%;
+            border: 1px solid;
+            border-radius:10px;
+        }
     </style>
 </head>
 <body>
@@ -69,13 +113,32 @@
     </a>
     <div class="header-right">
         <a href="/">Accueil</a>
-        <a href="activites">Activités</a>
-        <a href="competences">Compétences</a>
         <a href="cv">CV</a>
         <a href="portfolio">Portfolio</a>
-        <a class="active" href="presentation">Presentation</a>
-        <a href="projet">Projet</a>
+        <a class="active" href="presentation">Présentation</a>
     </div>
+</div>
+<div id="midleft">
+    <hgroup>
+        <h2>Bienvenue sur l'ePortfolio de </h2>
+        <h2>Gaël Dieuzeide</h2>
+    </hgroup>
+  <p>
+
+
+      Projet personnel :
+
+      Ayant une facilité de communication et une approche à la clientèle, je compte en profiter pour mener à bien mes projets futurs.
+      Je porte un intérêt particulier au niveau des réseaux, du Cloud, la sécurité et la programmation axée web.
+      Dans un futur proche, j'aspire à y adjoindre d'autres de mes passions telles que la photographie, les montages vidéo et l'aéromodélisme.
+
+      Compétences :
+
+      On me considère souvent comme quelqu'un de loyal, sincère et polyvalent.
+      Je suis toujours à l'écoute et analyse de façon constructive les problèmes afin de les résoudre.
+      Travailler en équipe, tout comme en autonomie, ne me pose aucun problème.
+
+      Points forts : sens de l'écoute, communication, diplomatie, attitude positive et empathique.</p>
 </div>
 </body>
 </html>

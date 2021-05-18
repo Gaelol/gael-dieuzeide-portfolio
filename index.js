@@ -10,17 +10,8 @@ express()
 .get('/presentation',function(req,res){
     res.sendFile(path.join(__dirname+'/presentation.html'));
 })
-.get('/projet',function(req,res){
-    res.sendFile(path.join(__dirname+'/projet.html'));
-})
-.get('/competences',function(req,res){
-    res.sendFile(path.join(__dirname+'/competences.html'));
-})
 .get('/cv',function(req,res){
     res.sendFile(path.join(__dirname+'/cv.html'));
-})
-.get('/activites',function(req,res){
-    res.sendFile(path.join(__dirname+'/activites.html'));
 })
 .get('/portfolio',function(req,res){
     res.sendFile(path.join(__dirname+'/portfolio.html'));
