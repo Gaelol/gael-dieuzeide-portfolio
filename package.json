@@ -1,7 +1,7 @@
 {
-  "name": "ePortfolio de Gaël Dieuzeide",
+  "name": "ePortfolio de Gael Dieuzeide",
   "version": "0.3.0",
-  "description": "ePortfolio de Gaël Dieuzeide",
+  "description": "ePortfolio de Gael Dieuzeide",
   "engines": {
     "node": "14.x"
   },
